@@ -5,7 +5,7 @@
 	"main": "server.js",
 	"type": "module",
 	"scripts": {
-		"dev": "node src/server.js"
+		"dev": "nodemon src/server.js"
 	},
 	"repository": {
 		"type": "git",
@@ -16,5 +16,12 @@
 	"bugs": {
 		"url": "https://github.com/mo1kov-a/task-manager-planora/issues"
 	},
-	"homepage": "https://github.com/mo1kov-a/task-manager-planora#readme"
+	"homepage": "https://github.com/mo1kov-a/task-manager-planora#readme",
+	"dependencies": {
+		"dotenv": "^17.2.3",
+		"express": "^5.2.1",
+		"nodemon": "^3.1.11",
+		"pg": "^8.16.3",
+		"winston": "^3.19.0"
+	}
 }
